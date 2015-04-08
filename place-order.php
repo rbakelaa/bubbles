@@ -205,7 +205,7 @@ function renderForm($name,
 
  
  				//Once the form has been submitted, redirect back to the orders page
- 				header("Location: http://localhost/bubbles/place-order.php"); 
+ 				header("Location: http://localhost/bubbles/place-orders.php"); 
 
  		}
 

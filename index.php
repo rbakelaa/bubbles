@@ -3,7 +3,7 @@ include('_layout.php');
 echoLayoutTop();
 ?>
 
-
+<h1>Place order</h1>
 <form action"" method="post">
 	<p>Name: 							<br /> <input type="text" name="name"/></p>
 	<p>Phone: 							<br /> <input type="text" name="phone"/></p>
@@ -134,9 +134,12 @@ echoLayoutTop();
 	    '$printColor',
 	    '$doubleSided')";
 
-	if ($conn->multi_query($sql) === TRUE) {
+	if ($conn->multi_query($sql) === TRUE) 
+	{
 	    echo "New records created successfully";
-	} else {
+	} 
+	else 
+	{
 	    echo "Error: " . $sql . "<br>" . $conn->error;
 	}
 }

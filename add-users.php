@@ -117,7 +117,8 @@ if($_SERVER['REQUEST_METHOD'] === 'POST')
 			//Insert the entered data into database
 			mysql_query("INSERT INTO `employees`(`id`,`firstname`,`lastname`,`username`,`email`,`password`) VALUES (NULL,'$first_name','$last_name','$user_name','$email','$password')");
 			//Display welcome message when registered
-			$statusMsg = "<p>Welcome $user_name. Thanks for registering.";
+
+			header("Location: http://localhost/bubbles/view-users.php?statusMsg=new-user");
 		}
 	}
 }
@@ -132,7 +133,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST')
 ?>
 
 <form method = "post">
-					<b><p>User Registration</p></b>
+					<b><p>Add an Employee</p></b>
 					<p>User Name:</p>			<p><input type = "text" name = "username" size = "25" placeholder = "Enter user name"><?php echo $usernameErr;?></p>
 					<p>First Name:</p>			<p><input type = "text" name = "firstname" size = "25" placeholder = "Enter first name"><?php echo $firstnameErr;?></p>
 					<p>Last Name:</p>			<p><input type = "text" name = "lastname" size = "25" placeholder = "Enter last name"><?php echo $lastnameErr;?></p>
