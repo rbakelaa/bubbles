@@ -1,0 +1,82 @@
+body{
+	font-family: 'Open Sans', sans-serif;;
+	margin: 0px;
+	padding: 0px;
+	color: #333;
+	font-size: 12pt;
+}
+
+div#navbar{
+	height: 60px;
+	width: 100%;
+	background-color: #535353;
+	color: #ccc;
+}
+
+div#navArea{
+	width: 920px;
+	padding: 0px 20px;
+	margin: 0 auto;
+}
+
+div#navbar span{
+	padding: 20px 0px;
+}
+
+div#navbar a{
+	text-decoration: none;
+	color: #ccc;
+}
+
+div#navbar a:hover{
+	color: #fff !important;
+}
+
+span#logo{
+	font-size: 16pt !important;
+}
+
+form div.floatLeft{
+	padding: 10px 30px;
+}
+
+.floatLeft{
+	float:left;
+}
+
+.floatRight{
+	float:right;
+}
+
+input, select{
+	line-height: 20px;
+	width: 200px;
+	height: 30px;
+	font-style: 12pt;
+}
+textarea
+{
+	width:300px;
+	height:100px;
+
+}
+input.checkbox{
+	width: 20px !important;
+}
+
+div#wrapper{
+	width: 920px;
+    margin: 0 auto;
+	background-color: #fff;
+	padding: 20px;
+	border-bottom-left-radius: 1em;
+	border-bottom-right-radius: 1em;
+	border: 1px solid #cce0e1;
+	margin-bottom: 20px !important;
+}
+
+div#content{
+	display: inline-block;
+	padding: 0px;
+	margin: 0px;
+}
