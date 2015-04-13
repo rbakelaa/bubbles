@@ -1,0 +1,245 @@
+
+#header
+{
+	width:100%;
+	top:0px;
+	left:0px;
+	position:fixed;
+	background-color:#535353;
+	height:60px;
+
+}
+
+.clearfix:after 
+{
+    display:block;
+    clear:both;
+}
+/*----- Menu Outline -----*/
+.menu-wrap 
+{
+    width:100%;
+}
+.menu-wrap nav, ul
+{
+    background-color:#535353;
+    color:white;
+}  
+.menu 
+{
+    width:1000px;
+    margin:0px auto;
+    margin-top:0px;
+    margin-bottom: -5px;
+    color:black;
+}
+.menu p 
+{
+    margin:0px;
+    list-style:none;
+    font-family: 'Open Sans', sans-serif;
+    font-size:19px;
+    margin-right:20px;
+    position:relative;
+    margin-top:8px;
+}
+ 
+.menu li 
+{
+    margin:0px;
+    list-style:none;
+    font-family: 'Open Sans', sans-serif;
+}
+.menu a 
+{
+	text-decoration:none;
+	color:white;
+}
+ 
+.menu li:hover > a, .menu .current-item > a 
+{
+    color:#D8D8D8;
+}
+ 
+/*----- Top Level -----*/
+.menu > ul > li 
+{
+    float:left;
+    display:inline-block;
+    position:relative;
+    font-size:16px;
+    font-family: 'Open Sans', sans-serif;
+}
+ 
+.menu > ul > li > a 
+{
+    padding:10px 30px;
+    display:block;
+}
+ 
+/*----- Bottom Level -----*/
+.menu li:hover .sub-menu 
+{
+    z-index:2;
+    opacity:1;
+}
+ 
+.sub-menu 
+{
+    width:300px;
+    border-radius:5px;
+    box-shadow: 0px 0px 5px;
+    padding:5px 0px;
+    position:relative;
+    top:0px;
+    left:0px;
+    z-index:1;
+    opacity:0;
+    background:#535353;
+}
+.sub-menu li 
+{
+    font-size:16px;
+    font-family: 'Open Sans', sans-serif;
+}
+ 
+.sub-menu li a 
+{
+    padding:10px 30px;
+    display:block;
+    color:white;
+}
+#orders table 
+{ 
+  width: 100%; 
+  border-collapse: collapse;
+  margin-top:5px;
+
+}
+#orders th 
+{ 
+  background: #535353; 
+  color: white; 
+  font-weight: bold; 
+}
+#orders td, th 
+{ 
+  padding: 6px; 
+  border: 1px solid #ccc; 
+  text-align: left; 
+}
+#orders td > a:hover
+{
+    text-decoration:none;
+}
+#orders tr:hover
+{
+    background: #eee;
+
+}
+#footer
+{
+    width:100%;
+    bottom:0px;
+    left:0px;
+    position:fixed;
+    background-color:#535353;
+    height:60px;
+    color:white;
+
+}
+#footer p
+{
+    font-size:16px;
+    margin-top:20px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+body
+{
+    background-image: url("http://localhost/bubbles/images/background.jpg");
+}
+.container
+{
+    width:960px;
+    min-height: calc(100% - 120px);
+    margin: 0 auto;
+}
+.page
+{
+    background-color:white;
+    padding:20px;
+    margin-bottom:0px;
+    margin-top:40px;
+    box-shadow: 0px 0px 10px gray;
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+.container2
+{
+    width:100%;
+    min-height: calc(100% - 120px);
+    margin:0;
+}
+.page2
+{
+    background-color:white;
+    left:0px;
+    right:0px;
+    padding:20px;
+    margin-bottom:0px;
+    margin-top:40px;
+    box-shadow: 0px 0px 10px gray;
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+
+.page p
+{
+    font-size:16px;
+
+}
+.red
+{
+    color: #f00;
+}
+#passReset
+{
+    text-decoration:none;
+}
+.floatLeft
+{
+    float:left;
+    padding-right:40px;
+}
+.floatRight
+{
+    float:right;
+}
+textarea
+{
+    width:300px;
+    height:100px;
+
+}
+input, select
+{
+    line-height: 20px;
+    width: 200px;
+    height: 30px;
+    font-style: 12pt;
+}
+input.checkbox
+{
+    width: 20px !important;
+}
+#account
+{
+    font-size:16px;
+    font-family: 'Open Sans', sans-serif;
+    color:white;
+    border-bottom:solid 1px white;
+}
+ 
